@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 8px;
+  padding: 50px 25px;
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+ }
+  
+
+/* Main table */
+
+.invoice {
+  width: 800px;
+  margin: auto;
+  border: 2px solid #222;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.invoice > tbody > tr > td {
+  padding: 0;
+}
+
+/* Zylker */
+
+.zylker {
+  width: 100%;
+  height: 100px;
+  border-collapse: collapse;
+}
+
+.Zylker td {
+  padding: 16px 11px;
+  vertical-align: top;
+}
+
+.Zylker h1 {
+  margin: 0 0 30px;
+  font-size: 18px;
+}
+
+.Zylker p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+/* Invoice details */
+
+.invoice-details {
+  width: 100%;
+  height: 80px;
+  border-collapse: collapse;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+}
+
+.details-left {
+  width: 50%;
+  border-right: 2px solid #222;
+  padding: 9px 20px;
+}
+
+.details-right {
+  width: 50%;
+}
+
+.details-table {
+  width: 130%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.details-table td {
+  padding: 2px 0;
+}
+
+.details-table td:first-child {
+  width: 130px;
+}
+
+/* Address */
+
+.address-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.address-table th {
+  height: 26px;
+  border-bottom: 2px solid #222;
+  font-size: 10px;
+  text-align: center;
+}
+
+.address-table th:first-child {
+  border-right: 2px solid #222;
+}
+
+.address-table td {
+  height: 80px;
+  padding: 14px 16px;
+  vertical-align: top;
+  font-size: 10px;
+}
+
+.address-table td:first-child {
+  border-right: 2px solid #222;
+}
+
+.address-table td b {
+  font-size: 11px;
+}
+
+.address-table p {
+  margin: 5px 0 0;
+  line-height: 12px;
+}
+
+/* Items */
+
+.items {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 10px;
+}
+
+.items th {
+  height: 24px;
+  font-weight: normal;
+  text-align: center;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+  border-right: 2px solid #222;
+}
+
+.items th:last-child {
+  border-right: 0px;
+}
+
+.items th:nth-child(1) {
+  text-align: center;
+  width: 62px;
+ 
+}
+
+.items th:nth-child(2) {
+  width: 306px;
+}
+
+.items th:nth-child(3) {
+  width: 62px;
+}
+
+.items th:nth-child(4) {
+  width: 62px;
+}
+
+.items th:nth-child(5) {
+  width: 62px;
+}
+
+.items td {
+  height: 53px;
+  padding: 6px;
+  vertical-align: top;
+  text-align: center;
+  border-bottom: 2px solid #222;
+  border-right: 2px solid #222;
+}
+
+.items td:last-child {
+  border-right: 39px;
+  text-align: center;
+}
+
+.items td:first-child {
+  vertical-align: top;
+  text-align: left;
+}
+
+/* Nested item table */
+
+.nested-item {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.nested-item td {
+  height: auto;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  vertical-align: top;
+  font-size: 10px;
+  line-height: 11px;
+}
+
+.nested-item b {
+  font-size: 10px;
+}
+
+/* Quantity / Rate / Amount */
+
+.items td:nth-child(3),
+.items td:nth-child(4),
+.items td:nth-child(5) {
+  vertical-align: null;
+}
+
+/* Subtotal */
+
+.items .subtotal-label {
+  height: 31px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.items .subtotal-value {
+  height: 31px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+/*Button*/
+.text {
+  height: 250px;
+  text-align: center;
+  vertical-align: middle;
+}

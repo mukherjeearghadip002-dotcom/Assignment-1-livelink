@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body>
+    
+    <table class="invoice">
+
+        <!-- Zylker Header -->
+        <tr>
+            <td>
+                <table class="Zylker">
+                    <tr>
+                        <td>
+                            <h1>Zylker Electronics Hub</h1>
+                            <pre>
+Northern Street,
+Greater South Avenue,
+New York,
+New York 10001, U.S.A.
+                            </pre>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+        <!-- Invoice Details -->
+        <tr>
+            <td>
+                <table class="invoice-details">
+                    <tr>
+                        <td class="details-left">
+                            <table class="details-table">
+                                <tr>
+                                    <td><b>Invoice</b></td>
+                                    <td>IND-00128</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Invoice Date</b></td>
+                                    <td>30-09-2026</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Terms</b></td>
+                                    <td>Due on Receipt</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Due Date</b></td>
+                                    <td>28.01.2026</td>
+                                </tr>
+                            </table>
+                        </td>
+
+                        <td class="details-right"></td>
+
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+
+        <!-- Bill To-->
+        <tr>
+            <td>
+                <table class="address-table">
+
+                    <tr>
+
+                        <th>Bill To</th>
+                        <th>Ship To</th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p><b>Ms. Mary D. Dunton</b></p>
+                            <p>
+                                1324 Hinkle Lake Road<br>
+                                Needham<br>
+                                02192 Maine
+                            </p>
+                        </td>
+        <!--Ship To-->
+                        <td>
+                            <p><b>Mr. Liam D. Dunton</b></p>
+                            <p>
+                                1324 Hinkle Lake Road<br>
+                                Needham<br>
+                                021926 Maine
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+        <!-- Items -->
+        <tr>
+            <td>
+                <table class="items">
+
+                    <tr>
+                        <th>Serial No.</th>
+                        <th>Item Description</th>
+                        <th>Qty</th>
+                        <th>Rate</th>
+                        <th>Amount</th>
+                    </tr>
+
+                    <!-- Item 1 -->
+                    <tr>
+                        <td>1.</td>
+                        <td>
+                            <table class="nested-item">
+                                <tr>
+                                    <td>
+                                        <b>Camera</b><br>
+                                        DSLR Camera with Advance Shooting<br>
+                                        Capabilities
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>1.00</td>
+                        <td>$899.00</td>
+                        <td>899.00</td>
+                    </tr>
+
+                    <!-- Item 2 -->
+                    <tr>
+                        <td>2.</td>
+                        <td>
+                            <table class="nested-item">
+                                <tr>
+                                    <td>
+                                        <b>Fitness Tracker</b><br>
+                                        Activity tracker with heart rate monitoring<br>
+                                        Capabilities
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>1.00</td>
+                        <td>$129.00</td>
+                        <td>$129.00</td>
+                    </tr>
+
+                    <!-- Item 3 -->
+                    <tr>
+                        <td>3.</td>
+                        <td>
+                            <table class="nested-item">
+                                <tr>
+                                    <td>
+                                        <b>Laptop</b><br>
+                                        Lightweight laptop with a powerful processor<br>
+                                        Capabilities
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>1.00</td>
+                        <td>$1,199.00</td>
+                        <td>$1,199.00</td>
+                    </tr>
+
+                    <!-- Subtotal -->
+                    <tr>
+                        <td colspan="4" class="subtotal-label" style="text-align: center;">
+                            <p>Sub Total</p>
+
+                        </td>
+                        <td class="subtotal-value">
+                            $2,227.00
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+        <!-- Bottom -->
+        <tr>
+            <td class="text" ; style="align-items: center;">
+                <h2>INVOICE</h2>
+            </td>
+        </tr>           
+        </td>
+        </tr>
+        </td>
+        </tr>
+    </table>
+</body>
+
+</html>
